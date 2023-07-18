@@ -1,0 +1,12 @@
+var arr = new Array(1,2);
+
+ function print (arr) {
+        var num = arr.shift();
+        arr.push(num);
+       
+      return arr;
+} 
+
+print(arr);
+
+console.log(arr);
