@@ -1,0 +1,10 @@
+var sec = 10;
+function countDown() {
+  console.log("Count Down end after:", sec);
+
+  if (sec == 1) {
+    clearInterval(timer);
+  }
+  sec--;
+}
+var timer = setInterval(countDown, 1000);
